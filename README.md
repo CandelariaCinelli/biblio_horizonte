@@ -1,29 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+📌 Propósito General
+El sistema permite a los docentes solicitar recursos (proyectores y notebooks) de forma remota para bloques horarios específicos, y brinda a la bibliotecaria (Lucía) una herramienta centralizada para revisar, confirmar o rechazar solicitudes, garantizando la consistencia de los datos mediante validaciones que impiden reservas dobles.
 
-# Biblioteca Horizonte — Gestión de recursos tecnológicos
+🚀 Alcance del MVP
+Inventario Fijo de Equipos: Gestión de los 6 equipos iniciales (2 proyectores y 4 notebooks).
 
-This contains everything you need to run your app locally.
+Módulos Horarios: Selección de turnos escolares preestablecidos.
 
-## Run Locally
+Ciclo de Vida de Solicitudes: Creación de pedidos en estado PENDIENTE, CONFIRMADA o RECHAZADA.
 
-**Prerequisites:**  Node.js
+Panel de Control: Interfaz para que la bibliotecaria gestione solicitudes en tiempo real.
 
+Control de Solapamientos: Reglas de negocio y restricciones en base de datos para impedir reservas concurrentes o duplicadas para un mismo equipo, fecha y módulo horario.
 
-1. Instalar dependencias del frontend:
-   `npm install`
-2. Configurar las variables de [.env.example](.env.example) en `.env`.
-3. Ejecutar la interfaz:
-   `npm run dev`
+Consulta de Docentes: Vista de seguimiento del estado de sus peticiones.
 
-La interfaz se abre en `http://localhost:3000`.
+👥 Equipo de Desarrollo (Roles)
+Baez Tania - Backend
 
-Para ejecutar también el backend Spring Boot con PostgreSQL:
+Cinelli Candelaria - Frontend y Pruebas
 
-```powershell
-cd backend
-mvn spring-boot:run
-```
+Gigena Ghinamo Ariana - Líder y Frontend
 
-El backend queda disponible en `http://localhost:8787/api/v1`.
+Gigena Ghinamo Gerardo - Backend
+
+🛠️ Stack Tecnológico
+Backend: Spring Boot (Java 17+, REST API, Spring Data JPA)
+
+Frontend: React
+
+Base de Datos: PostgreSQL (Administrada con DBeaver)
+
+Testing: Postman
