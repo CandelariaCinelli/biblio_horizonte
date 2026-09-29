@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title>Notebook tecnológica</title>
+  <rect width="640" height="360" rx="28" fill="#eef2ff"/>
+  <rect x="155" y="65" width="330" height="205" rx="16" fill="#3730a3"/>
+  <rect x="180" y="90" width="280" height="155" rx="8" fill="#93c5fd"/>
+  <path d="M105 285h430l-32 35H137z" fill="#1e1b4b"/>
+  <circle cx="320" cy="280" r="6" fill="#c7d2fe"/>
+  <path d="M255 165h130M255 195h85" stroke="#1e3a8a" stroke-width="12" stroke-linecap="round"/>
+</svg>

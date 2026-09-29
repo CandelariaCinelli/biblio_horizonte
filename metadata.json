@@ -1,0 +1,6 @@
+{
+  "name": "Biblioteca Horizonte - Gestión de Recursos Tecnológicos",
+  "description": "Sistema escolar de gestión y reservas de recursos tecnológicos (proyectores y notebooks) para docentes y bibliotecaria, con control de solapamiento estricto y arquitectura MVC Spring Boot y PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
